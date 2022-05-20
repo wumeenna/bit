@@ -8,6 +8,9 @@ class BitApplicationTests {
 
 	@Test
 	void contextLoads() {
+		BitApplication bit = new BitApplication();
+		
+		int test = bit.getI();
 	}
 
 }
