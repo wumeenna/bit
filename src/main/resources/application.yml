@@ -1,0 +1,17 @@
+spring:
+ profiles:
+  active: local
+
+server:
+ host:
+  api: 192.168.0.92:8080
+  front: 192.168.0.92:3000
+---
+
+server:
+  port: 8080
+  ssl:
+        enabled: true
+        key-store: certificate.pfx
+        key-store-type: PKCS12
+        key-store-password: 1234
