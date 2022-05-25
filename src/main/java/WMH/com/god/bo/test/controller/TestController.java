@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 
 @Slf4j
-@Controller
+@Controller("/WMH")
 public class TestController{
 
     @Autowired
