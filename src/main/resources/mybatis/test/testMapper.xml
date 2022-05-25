@@ -3,7 +3,7 @@
 
 
 <mapper namespace="WMH.com.god.bo.test.mapper.TestMapper">
-    <select id="selectTest" resultType="TestVo">
+    <select id="selectTest" resultType="com.god.bo.test.vo.TestVo">
         SELECT 'GOD' AS NAME
         </select>
 </mapper>
